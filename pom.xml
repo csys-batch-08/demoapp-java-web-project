@@ -1,6 +1,6 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>in.fwsa</groupId>
+	<groupId>com.chainsys</groupId>
 	<artifactId>demoapp-web</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
@@ -11,8 +11,8 @@
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 		<java.version>17</java.version>
-		<sonar.organization>fwsa-batch-02</sonar.organization>
-		<sonar.projectKey>fwsa-batch-02_java-web-project-template</sonar.projectKey>
+		<sonar.organization>csys-batch-08</sonar.organization>
+		<sonar.projectKey>csys-batch-08_demoapp-java-web-project-template</sonar.projectKey>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 	<dependencies>
@@ -32,7 +32,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>todoapp-web</finalName>
+		<finalName>demoapp-web</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
